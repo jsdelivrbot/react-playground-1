@@ -1,0 +1,75 @@
+body {
+  font-family: 'Quattrocento', serif !important;
+}
+
+a:hover {
+  color: red
+}
+
+.hero-container {
+  text-align: center;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-logo {
+  width: 100px;
+  height: 100px;
+}
+.channel-title {
+  color: #3F51B5;
+}
+.search-bar {
+  margin: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 100%;
+}
+
+.video-item img {
+  max-width: 64px;
+}
+.video-detail {
+  margin-top: 1em;
+}
+.video-detail .details {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.youtube-video-container {
+  background-color: #dedddd;
+}
+.more-videos {
+  margin: 1em 0 0.3em;
+}
+@media screen and (min-width: 992px) {
+  .more-videos {
+    margin: 0.5em 0 0.3em;
+  }
+}
+.video-list {
+  padding-left: 0
+}
+.video-list-item:hover {
+  color: #3F51B5;
+}
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #eee;
+}
+
+.media-heading {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
